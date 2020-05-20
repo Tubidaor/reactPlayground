@@ -1,0 +1,119 @@
+.shoulders {
+  margin-left: 700px;
+  margin-top: 100px;
+  position: absolute;
+}
+
+.shoulders.li1 {
+  position: relative;
+  width: 100px;
+  border-radius: 50%;
+  border-top: 2px solid yellow;
+  transform: rotate(-12deg);
+}
+.shoulders.li2 {
+  position: relative;
+  width: 1px;
+  height: 200px;
+  border-top: 21px solid transparent;
+  border-bottom: 19px solid transparent;
+  border-right: 73px solid blue;
+  transform: rotate(0deg);
+  margin-top: -15px;
+  left: 22px;
+}
+.shoulders.li2::before {
+  content: "";
+  display: BLOCK;
+  position: relative;
+  width: 60px;
+  height: 4px;
+  border-top: 2px solid black;
+  transform: rotate(-12deg);
+  top: -16px;
+  left: 12px;
+  border-radius: 40%;
+  background-color: blue;
+}
+
+.shoulders.li3 {
+  position: relative;
+  top: -297px;
+  left: 58px;
+  width: 1px;
+  border-top: 93px solid yellow;
+  border-left: 20px solid transparent;
+  border-right: 13px solid transparent;
+  border-bottom: 1px solid blue;
+  transform: skew(5deg, -13deg);
+}
+.shoulders.li4 {
+  position: relative;
+  top: -476px;
+  left: -54px;
+  width: 99px;
+  border-bottom: 6px solid blue;
+  border-top: 3px solid blue;
+  border-radius: 45%;
+  transform: rotate(-10deg)
+}
+.shoulders.li5 {
+  position: relative;
+  top: -533px;
+  left: -86px;
+  width: 154px;
+  height: 49px;
+  border-bottom: 6px solid blue;
+  border-top: 3px solid blue;
+  border-radius: 50%;
+  background-color: blue;
+  transform: rotate(59deg);
+}
+.shoulders.li5::after {
+  content: "";
+  position: relative;
+  height: 90px;
+  width: 61px;
+  top: -44px;
+  left: 30px;
+  background-color: blue;
+  display: block;
+  transform: rotate(-69deg);
+}
+
+.shoulders.li6 {
+  position: relative;
+  top: -741px;
+  left: 24px;
+  width: 19px;
+  height: 150px;
+  border-right: 2px solid black;
+  border-radius: 43%;
+  transform: rotate(2deg);
+}
+.shoulders.li7 {
+  position: relative;
+  top: -992px;
+  left: -34px;
+  width: 68px;
+  height: 166px;
+  border-right: 2px solid black;
+  border-radius: 50%;
+  border-top-left-radius: 50%;
+  border-top-right-radius: 50%;
+  border-bottom-right-radius: 50%;
+  border-bottom-left-radius: 50%;
+  transform: rotate(146deg);
+  z-index: 1;
+}
+.shoulders.li7::before {
+  content: "";
+  display: block;
+  position: absolute;
+  background-color: white;
+  top: 20px;
+  left: 20px;
+  height: 40px;
+  width: 40px;
+  z-index: -1
+}
